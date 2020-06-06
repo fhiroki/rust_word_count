@@ -2,7 +2,7 @@ use std::env;
 use std::fs::File;
 use std::io::BufReader;
 
-use wordcount::{count, CountOption};
+use fhiroki_bicycle_book_wordcount::{count, CountOption};
 
 fn main() {
     let filename = env::args().nth(1).expect("1 argument FILENAME required");

@@ -1,8 +1,15 @@
 [package]
-name = "wordcount"
+name = "fhiroki-bicycle-book-wordcount"
 version = "0.1.0"
 authors = ["<hiroki976@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "count frequency of words, characters or lines"
+repository = "https://github.com/fhiroki/rust_word_count"
+categories = ["command-line-utilities"]
+
+[badges]
+travis-ci = { repository = "fhiroki/rust_word_count" }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
