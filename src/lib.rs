@@ -35,7 +35,7 @@ impl Default for CountOption {
 ///
 /// ```
 /// use std::io::Cursor;
-/// use my_wordcount::{count, CountOption};
+/// use wordcount::{count, CountOption};
 ///
 /// let mut input = Cursor::new("aa bb cc bb");
 /// let freq = count(input, CountOption::Word);
