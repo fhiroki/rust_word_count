@@ -1,5 +1,7 @@
 # Rust word count
 
+This is sample project with Rust in [this book](https://gihyo.jp/book/2019/978-4-297-10559-4).
+
 ## usage
 
 ```bash
